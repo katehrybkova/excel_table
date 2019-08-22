@@ -1,0 +1,21 @@
+.grid { 
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    }
+  .grid > div {
+    font-size: 25px;
+    text-align: center;
+    border: 1px black solid;
+
+  }
+  input{
+      height: 45px;
+      font-size: 25px;
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      border: none;
+  }
